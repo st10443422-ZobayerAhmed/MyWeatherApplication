@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailedViewScreen">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/last" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="619dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images" />
+
+    <TextView
+        android:id="@+id/detailedInfoTextView"
+        android:layout_width="288dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="356dp"
+        android:text="Weather Forecast Details"
+        android:textColor="#1F2E81"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/averageTemperatureTextView"
+        android:layout_width="292dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="233dp"
+        android:text="Weekly Average Temperature"
+        android:textColor="#1F2E81"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="172dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="107dp"
+        android:backgroundTint="#1F2E81"
+        android:text="Back"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
